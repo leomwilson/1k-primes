@@ -8,20 +8,20 @@ public class Java {
 	int p = 2;
 	for (int i = 0; i < 1000; i++) {
 	    while (true) {
-		boolean prime = true;
-		for (int j : s) {
-		    if (p % j == 0) {
-			prime = false;
-			break;
-		    }
-		}
-		if (prime) {
-		    s.add(p);
-		    System.out.println(p);
-		    p++;
-		    break;
-		}
-		p++;
+			boolean prime = true;
+			for (int j : s) {
+			    if (p % j == 0) {
+				prime = false;
+				break;
+			    }
+			}
+			if (prime) {
+			    s.add(p);
+			    System.out.println(p);
+			    p++;
+			    break;
+			}
+			p++;
 	    }
 	}
     }
