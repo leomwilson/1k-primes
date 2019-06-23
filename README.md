@@ -1,3 +1,5 @@
+## This project has been permanently moved to [GitLab](https://gitlab.com/leomwilson/1k-primes)
+
 # 1k-primes
 
 This is a programming excercise for me to gain experience with more languages than I would normally use.
